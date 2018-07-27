@@ -1,0 +1,250 @@
+body{
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 8fr ;
+    
+}
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr ;
+    
+}
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    
+}
+.sidebar{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.main{
+    grid-column: 2/5;
+    grid-row: 2/6;
+   
+}
+.header,.footer,.sidebar,.main {
+    padding: 10px;
+
+}
+.header{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    background-image:url(ballsizesmall.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;    
+
+}
+.footer{
+    grid-row: 5;
+    grid-column: 1/6;
+    font-size: 12px;
+    padding: 0%;
+     text-align: center;
+}
+
+
+.lista{
+    font-style:italic;
+    list-style-image: url("balonrecortado.png");
+}
+.imagesidebar{
+    width: 100%;
+    height: 100%;
+    
+}
+ 
+
+a{
+  font-size: 18px;
+    font-style: italic;
+        text-decoration: none;
+}
+.listletter {
+    list-style-type:lower-latin;
+    margin: 0.5% 5% 0.5% 6%;
+}
+
+.listsquare{
+    list-style-type: square;
+}
+#listcircle{
+    list-style-type: circle;
+    margin: 0.5% 5% 0.5% 6%;
+}
+h5{
+        font-size: 23px;
+}
+.subtitle{
+    text-align: center;
+       margin-top: 30px;
+    margin-bottom: 30px;
+}
+.subtitle h5{
+    text-align: center;
+    
+    
+}
+.subtitle h3{
+    text-align: center;
+  
+    
+}
+.gameinfo{
+    text-decoration: underline;
+}
+.subtitle p{
+    text-align: center;
+
+}
+h3{
+        font-style: italic;
+    font-size: 35px;
+}
+span{
+        font-weight: bold;
+}
+.margin1{
+        margin: 0.5% 5% 0.5% 4%;
+}
+.margin2{
+        margin: 0.5% 5% 0.5% 6%;
+}
+.margin3{
+        margin: 0.5% 5% 0.5% 8%;
+}
+#interior{
+        margin: 0.5% 5% 0.5% 6%;
+}
+table{
+        margin-top: 50px;
+    margin-bottom: 50px
+}
+#mail{
+    margin-left: 20%;
+}
+
+.name1{
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 63.2%;
+   
+}
+
+.city{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 63.2%;
+    width: 100%;
+    max-width: 70%;
+}
+.birthdate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 63.2%;
+    width: 100%;
+    max-width: 70%;
+}
+.school{
+    display: flex;
+    flex-direction: row;
+      justify-content: space-between;
+     margin-right: 25%;
+     margin-top: 1%;
+    margin-bottom: 1%;
+     margin-right: 40%;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+      justify-content: space-between;
+     margin-top: 1%;
+    margin-bottom: 1%;
+        margin-right: 25%;
+   
+}
+.position{
+    display: flex;
+    flex-direction: row;
+      justify-content: space-between;
+     margin-top: 1%;
+    margin-bottom: 1%;
+        margin-right: 70%;
+   
+}
+.size{
+    display: flex;
+    flex-direction: row;
+      justify-content: space-between;
+     margin-right: 25%;
+     margin-top: 1%;
+    margin-bottom: 1%;
+     margin-right: 48%;
+}
+.textform{
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.firm{
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.send{
+    display: flex;
+    justify-content: center;
+}
+a.boton1 {
+  text-decoration: none;
+  background: #EEE;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+  margin-left: 48%;
+}
+.data1{
+      font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+    
+   background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+   
+
+}
